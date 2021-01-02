@@ -27,9 +27,9 @@ $ python run.py    --camera 0  # webcam(number)
                      --move True # If camera/user are not stable
                             False # if camera/user are stable
 ```
-- Wait for 5 secs for software to isolate Pulse. The waiting screen looks like this:
+- Wait for 5 secs for software to isolate Pulse. The waiting screen looks like this:<br>
 <img src="source/try.png" width="400"> <br>
-- The isolated Pulse value is shown in the screen and gets updated every 2 secs.
+- The isolated Pulse value is shown in the screen and gets updated every 2 secs.<br>
 <img src="source/value.png" width="400"> <br>
 ## Installation
 Face detection mode to be downloaded and kept in same repository, file to be downloaded : ["shape_predictor_68_face_landmarks.dat"](https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat)
