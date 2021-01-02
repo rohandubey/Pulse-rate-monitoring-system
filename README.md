@@ -14,7 +14,7 @@ This software is build using OpenCV Framework and using Fourier transformation t
 - It monitors green color intensity(subimage of red colou, as red is reflected) in the ROI and isolates the pulse pattern from the average intensity.
 - using a low bandpass filter and Fast Fourier Transformation.
 - The exagerated color patters makes it easier for heartbeat identification.
-- Then the pulse is isolated in about 15 secs and updates every 5 secs and syncs with user's heartbeat.
+- Then the pulse is isolated in about 5 secs and updates every 2 secs and syncs with user's heartbeat.
 ## Working
 - execute 
 ```bash
@@ -27,6 +27,10 @@ $ python run.py    --camera 0  # webcam(number)
                      --move True # If camera/user are not stable
                             False # if camera/user are stable
 ```
+- Wait for 5 secs for software to isolate Pulse. The waiting screen looks like this:
+<img src="source/try.png" width="400"> <br>
+- The isolated Pulse value is shown in the screen and gets updated every 2 secs.
+<img src="source/value.png" width="400"> <br>
 ## Installation
 Face detection mode to be downloaded and kept in same repository, file to be downloaded : ["shape_predictor_68_face_landmarks.dat"](https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat)
 ## Authors
