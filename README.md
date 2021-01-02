@@ -18,7 +18,7 @@ This software is build using OpenCV Framework and using Fourier transformation t
 ## Working
 - execute 
 ```bash
-$ python camera.py --camera 0  # webcam(number)
+$ python run.py    --camera 0  # webcam(number)
                    --source file.jpg  # image 
                             file.mp4  # video
                             rtsp://170.93.143.139/rtplive/470011e600ef003a004ee33696235daa  # rtsp stream
