@@ -33,6 +33,10 @@ $ python run.py    --camera 0  # webcam(number)
 <img src="source/value.png" width="400"> <br>
 ## Installation
 Face detection mode to be downloaded and kept in same repository, file to be downloaded : ["shape_predictor_68_face_landmarks.dat"](https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat)
+## Future Updates
+- Add multi-Processing to enable faster detection and easier processing.
+- Add a GUI support.
+- Add multi-streaming/multiple face detection.
 ## Authors
 Made with ❤️ by Rohan Dubey
 ## References
